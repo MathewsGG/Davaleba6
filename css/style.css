@@ -1,0 +1,169 @@
+body{
+	background-color: lightgray;
+}
+
+.main {
+	margin-left: 100px;
+	margin-top: 50px;
+	font-display: robotic;
+
+}
+
+.pagenames{
+	padding-right: 30px;
+	width: 32px;
+	height: 13px;
+	font-weight: 700;
+	font-size: 11px;
+	line-height: 13px;
+}
+
+
+
+.photo1 {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    vertical-align: middle; 
+   
+}
+
+
+
+.header{
+	font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    text-align: left;
+    width:120px;
+    height: 28px;
+    padding-bottom: 25px;
+}
+
+.header2{
+	
+    height: 28px;
+    text-align: left;
+    padding-top: 25px;
+    font-size: 24px;    
+
+
+}
+
+.cards{
+    display: flex; 
+    gap: 35px; 
+
+
+}
+
+
+.cards1main,
+.cards2main
+ {
+    width: 362px;
+    height: 357px;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+
+
+.photo1card{
+	height: 186px;
+	width: 362px;
+
+}
+
+.textcard1 {
+	position: relative;
+	left: 30px;
+	top: -150px;
+	width: 184px;
+    height: 23px;
+    color: white;
+
+
+}
+
+.intextc1{
+	font-weight: 700px;
+	font-size: 20px;
+}
+
+
+.intextc2{
+	width: 238px;
+	height: 36px;
+	color: #8A8787;
+	font-size: 10px;
+	position: relative;
+	left: 35px;
+	top: 35px;
+
+}
+
+.Clock{
+	position: relative;
+	width: 16px;
+	height: 16px;
+	right: 135px;
+	top: 68px;
+	opacity: 60%;
+}
+
+.intextc3{
+	position:relative;
+	width: 34px;
+	height: 12px;
+	right: 120px;
+	top: 65px;
+	font-size: 10px;
+	color: #8A8787;
+}
+
+
+.imgsn1 {
+    display: flex;
+    gap: 25px; 
+}
+
+.large-photos {
+    display: flex;
+    flex-direction: column;
+    gap: 35px; 
+}
+
+.imgsn1ph {
+    width: 758px;
+    height: 430px;
+    position: relative;
+    border-radius: 5px; 
+}
+
+.parent {
+    position: relative;
+}
+
+.son {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.small-photos {
+    display: flex;
+    flex-direction: column;
+    gap: 75px; 
+}
+
+.small-photo {
+    width: 362px;
+    height: 212px;
+    border-radius: 5px; 
+}
